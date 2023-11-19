@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  align-items: center; /* Alinea verticalmente en el centro */
+  /*justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+}
+
+.text-container {
+  flex: 1; /* Toma todo el espacio restante */
+  padding: 20px; /* Ajusta según sea necesario */
+}
+
+.gif-container {
+  /*flex-shrink: 0; /* No se encogerá, mantendrá su tamaño original */
+  padding: 5px; /* Ajusta según sea necesario */
+}
