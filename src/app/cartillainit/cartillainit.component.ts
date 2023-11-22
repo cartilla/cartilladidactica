@@ -1,5 +1,4 @@
-
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, ViewChild } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
@@ -18,6 +17,27 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   ]
 })
 export class CartillainitComponent {
+  currentIndex = 0;
+  carouselItems = [
+    {
+      imageUrl: 'assets/gif/phishing-phisher.gif',
+      title: 'PHISHING',
+      description1: 'Información: El phishing es un ataque en el que los delincuentes intentan engañar a las personas para que revelen información confidencial, como contraseñas o información financiera, a menudo a través de correos electrónicos, mensajes de texto o llamadas telefónicas.',
+      description2: 'Ejemplo: Mostrar ejemplos de correos electrónicos de phishing que simulan ser de instituciones bancarias o proveedores de servicios y solicitan información personal.'
+    },
+    {
+      imageUrl: 'assets/gif/ciberseguridad.gif',
+      title: 'xd',
+      description1: 'como es',
+      description2: 'por que'
+    },
+
+    // Agrega más elementos según sea necesario
+  ];
+
+  showNext() {
+    this.currentIndex = (this.currentIndex + 1) % this.carouselItems.length;
+  }
 
   showAnimation: boolean = false;
 

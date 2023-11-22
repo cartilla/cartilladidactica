@@ -1,101 +1,16 @@
-<div [@fadeInOut]="showAnimation ? 'visible' : 'hidden'">
-  <div class="content-container">
-    <div class="content">
-      <h1 class="text-container">¡Animación de Scroll!</h1>
-      <div class="gif-container">
-        <img src="./assets/gif/ciberseguridad.gif" alt="Mi GIF">
+<div class="alto">
+  <div class="carousel">
+    <div class="carousel-item">
+      <div class="image-container">
+        <img [src]="carouselItems[currentIndex].imageUrl" alt="Image">
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut facilisis mi.
-        Integer in mi nec turpis lacinia vestibulum. Ut ut tincidunt elit. Curabitur nec
-        libero vitae leo fermentum luctus nec non metus.
-      </p>
-      <p>
-        Suspendisse potenti. Sed eu tristique urna. Aenean tincidunt, mi non rhoncus commodo,
-        metus dolor suscipit ex, id condimentum ligula sem nec lacus. Integer tincidunt,
-        nunc nec fermentum bibendum, elit mi eleifend urna, et mattis eros massa et libero.
-      </p>
-      <p>
-        Quisque tristique tristique lectus, non rhoncus sapien pellentesque non. Donec sit
-        amet vestibulum libero. Proin ac ligula in eros tristique semper. Vestibulum auctor
-        nisi eget ligula gravida, non dapibus libero malesuada.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
-      <p>
-        Etiam id massa vel velit ullamcorper dapibus nec vel tellus. Integer eu sapien
-        auctor, congue mauris eget, hendrerit arcu. Nunc ac odio ut tellus luctus cursus.
-        Nulla facilisi. Donec tincidunt est non eros ultricies, vel iaculis lectus dictum.
-      </p>
+      <div class="text-container">
+        <h3>{{ carouselItems[currentIndex].title }}</h3>
+        <p>{{ carouselItems[currentIndex].description1 }}</p>
+        <p>{{ carouselItems[currentIndex].description2 }}</p>
+      </div>
     </div>
-  </div>
 
+    <button (click)="showNext()">Mostrar Siguiente</button>
+  </div>
 </div>

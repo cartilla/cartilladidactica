@@ -13,3 +13,31 @@
   /*flex-shrink: 0; /* No se encogerá, mantendrá su tamaño original */
   padding: 5px; /* Ajusta según sea necesario */
 }
+
+.alto{
+  margin-top: 30px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-item {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+}
