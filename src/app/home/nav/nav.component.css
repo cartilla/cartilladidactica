@@ -87,8 +87,8 @@ nav li a{
   border-radius: 14px;
 }
 nav li:hover a{
-  color: #020101;
-  background-color: #fddb0d;
+  color: black;
+  background-color: white;
   border-radius: 14px;
 }
 @media(max-width: 1000px){

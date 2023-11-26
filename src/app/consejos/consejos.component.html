@@ -1,0 +1,21 @@
+<div class="alto">
+  <div class="carousel">
+    <div class="carousel-item">
+      <div class="image-container">
+        <img [src]="carouselItems[currentIndex].imageUrl" alt="Image">
+      </div>
+
+      <div class="text-container">
+        <h3>{{ carouselItems[currentIndex].title }}</h3>
+        <p>{{ carouselItems[currentIndex].description1 }}</p>
+      </div>
+    </div>
+<div>
+  <button (click)="showAfter()" class="animated-button">Anterior</button>
+  <button (click)="showNext()" class="animated-button">Siguiente</button>
+
+</div>
+
+
+  </div>
+</div>

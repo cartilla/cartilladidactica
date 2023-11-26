@@ -13,3 +13,57 @@
   /*flex-shrink: 0; /* No se encogerá, mantendrá su tamaño original */
   padding: 5px; /* Ajusta según sea necesario */
 }
+
+.alto{
+  margin-top: 30px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-item {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.animated-button {
+  background-color: #ad3333;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.animated-button:hover {
+  background-color: white;
+  color: #ad3333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+h3{
+  color: #ad3333;
+}
+

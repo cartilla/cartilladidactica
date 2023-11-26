@@ -8,6 +8,8 @@ import { CartillainitComponent } from './cartillainit/cartillainit.component';
 import {FormsModule} from "@angular/forms";
 import { AppRoutingModule } from './app-routing.module';
 import { NavComponent } from './home/nav/nav.component';
+import { ConsejosComponent } from './consejos/consejos.component';
+
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { NavComponent } from './home/nav/nav.component';
     AppComponent,
     CartillainitComponent,
     NavComponent,
+    ConsejosComponent,
+
 
 
 
