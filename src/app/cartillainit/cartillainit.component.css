@@ -5,12 +5,11 @@
 }
 
 .text-container {
-  flex: 1; /* Toma todo el espacio restante */
-  padding: 20px; /* Ajusta según sea necesario */
+  flex: 1;
+  padding: 20px;
 }
 
 .gif-container {
-  /*flex-shrink: 0; /* No se encogerá, mantendrá su tamaño original */
   padding: 5px; /* Ajusta según sea necesario */
 }
 
@@ -32,6 +31,11 @@
   flex: 1;
   margin-right: 20px;
 }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
 img {
   max-width: 100%;
@@ -40,4 +44,15 @@ img {
 
 .text-container {
   flex: 1;
+}
+
+.right-button {
+  align-self: flex-end;
+}
+video {
+  max-width: 100%;
+  height: auto;
+}
+.video-container {
+  margin-top: 20px; /* Ajusta según sea necesario */
 }

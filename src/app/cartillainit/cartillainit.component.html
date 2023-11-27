@@ -9,8 +9,13 @@
         <p>{{ carouselItems[currentIndex].description1 }}</p>
         <p>{{ carouselItems[currentIndex].description2 }}</p>
       </div>
-    </div>
+      <div class="video-container">
+        <video controls width="100%">
+          <source [src]="carouselItems[currentIndex].videoUrl" type="video/mp4">
+        </video>
+      </div>
 
-    <button (click)="showNext()">Mostrar Siguiente</button>
+
+    <button (click)="showNext()" class="right-button">Mostrar Siguiente</button>
   </div>
 </div>
